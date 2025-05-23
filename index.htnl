@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SM Soad - Developer, Creator and Innovator." />
+  <title>SM Soad | Official Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      padding: 20px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #00ff88;
+      margin-bottom: 20px;
+    }
+    .social-links a {
+      color: #00ff88;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "SM Soad",
+    "image": "IMG_20240620_151823.jpg",
+    "jobTitle": "Developer & Creator",
+    "url": "https://yourdomain.com",
+    "sameAs": [
+      "https://www.facebook.com/toxic71soad",
+      "https://www.instagram.com/smsoad09?igsh=MTBjdDZ2aWphNjE2bA=="
+    ]
+  }
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <img src="IMG_20240620_151823.jpg" alt="SM Soad" class="profile-pic" />
+    <h1>SM Soad</h1>
+    <p>Developer | Creator | Innovator</p>
+    <p>আমি একজন ডেভেলপার এবং প্রযুক্তি নিয়ে কাজ করতে ভালোবাসি।</p>
+    <div class="social-links">
+      <a href="https://facebook.com/toxic71soad" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://instagram.com/smsoad09?igsh=MTBjdDZ2aWphNjE2bA==" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="mailto:smsoad85@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
